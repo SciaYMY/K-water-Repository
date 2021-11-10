@@ -1,0 +1,86 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+/* 레어아웃 */
+#mainTotal{font-family: 'Nanum Gothic', sans-serif;}
+#visual{background: url(../images/total2_customer/sub_tit_gnb02.png);}
+
+/* CONTENTS */
+.contents>div{width: 978px; padding: 30px 0;}
+.contents>div>div{width: 230px; height: 164px; float: left;}
+.contents>div>div.left{padding: 40px;}
+.contents>div>div .bar{background: #fff; width: 20px; height: 2px; margin-bottom: 5px;}
+.contents>div>div strong{color: #fff; font-size: 20px;}
+/* 자주하는질문 */
+.contents>.question{padding-top: 0; height: 244px; padding: 30px 0; border-bottom: 1px solid #ccc;}
+.contents>.question .left{background: #2061c2 url(../images/total2_customer/on_decl_often_bg.svg) no-repeat 185px 115px;}
+.contents>.question .right{border: 1px solid #3a80d1; width: 626px; height: 198px; padding: 22px 20px;}
+.contents>.question .right>a{display: block; width: 127px; height: 24px; border: 1px solid #ddd; float: left; margin: 0 5px 5px 0; padding: 18px 15px 18px 61px; line-height: 24px; font-size: 15px; color: #444;}
+.contents>.question .right>a:hover{border: 1px solid #2061c2; color: #2061c2;}
+.contents>.question .right>a:hover div{width: 21px; height: 24px; background: url(../images/total2_customer/on_decl_often_arrow.svg) no-repeat center; float: right;}
+.contents>.question .right>a:nth-child(1){background: url(../images/total2_customer/on_decl_often_ico1.svg) no-repeat 15px center}
+.contents>.question .right>a:nth-child(1):hover{background: url(../images/total2_customer/on_decl_often_ico1on.svg) no-repeat 15px center}
+.contents>.question .right>a:nth-child(2){background: url(../images/total2_customer/on_decl_often_ico2.svg) no-repeat 15px center}
+.contents>.question .right>a:nth-child(2):hover{background: url(../images/total2_customer/on_decl_often_ico2on.svg) no-repeat 15px center}
+.contents>.question .right>a:nth-child(3){background: url(../images/total2_customer/on_decl_often_ico3.svg) no-repeat 15px center}
+.contents>.question .right>a:nth-child(3):hover{background: url(../images/total2_customer/on_decl_often_ico3on.svg) no-repeat 15px center}
+.contents>.question .right>a:nth-child(4){background: url(../images/total2_customer/on_decl_often_ico4.svg) no-repeat 15px center}
+.contents>.question .right>a:nth-child(4):hover{background: url(../images/total2_customer/on_decl_often_ico4on.svg) no-repeat 15px center}
+.contents>.question .right>a:nth-child(5){background: url(../images/total2_customer/on_decl_often_ico5.svg) no-repeat 15px center}
+.contents>.question .right>a:nth-child(5):hover{background: url(../images/total2_customer/on_decl_often_ico5on.svg) no-repeat 15px center}
+.contents>.question .right>a:nth-child(6){background: url(../images/total2_customer/on_decl_often_ico6.svg) no-repeat 15px center}
+.contents>.question .right>a:nth-child(6):hover{background: url(../images/total2_customer/on_decl_often_ico6on.svg) no-repeat 15px center}
+.contents>.question .right>a.origin{margin-right: 0;}
+.contents>.question .right>div{width: 626px; height: 30px; background: #f8f8f8; float: left; margin-top: 4px; font-size: 18px; padding: 16px 0; text-align: center;}
+.contents>.question .right>div>span{background: url(../images/total2_customer/on_decl_often_call_li.svg) no-repeat left center; line-height: 30px; color: #005eca; padding-left: 36px; display: inline-block;}
+.contents>.question .right>div>div{width: 1px; height: 15px; display: inline-block; background: rgba(32, 97, 194, .5); margin: 0 13px;}
+.contents>.question .right>div>a{font-size: 18px; line-height: 30px; display: inline-block; color: #005eca;}
+.contents>.question .right>div>a:hover{text-decoration: underline;}
+
+.contents div>ul>li{float: left; width: 312px; margin: 20px 0 0 20px;}
+.contents div>ul>li.top{margin-top: 0;}
+.contents div>ul>li.clear{clear: both;}
+.contents div>ul>li.first{margin-left: 0;}
+.contents div>ul>li strong{display: block; width: 168px; height: 26px; font-size: 15px; color: #666; padding: 18px 72px; border-bottom: 1px solid #ccc; line-height: 26px;}
+.contents div>ul>li>ul{padding: 24px 42px;}
+.contents div>ul>li>ul>li:first-child{margin-top: 0;}
+.contents div>ul>li>ul>li{margin-top: 4px;}
+.contents div>ul>li>ul>li>a>div{width: 3px; height: 3px; background: #5e5e5e; display: inline-block; vertical-align: middle; margin-right: 8px;}
+.contents div>ul>li>ul>li>a{font-size: 13.5px; color: #444;}
+.contents div>ul>li>ul>li>a:after{content: ' '; display: inline-block; width: 12px; height: 10px; }
+/* 고객의 소리 */
+.contents>.client{height: 612px;}
+.contents>.client .left{background: #e86f35 url(../images/total2_customer/on_decl_safety_bg.svg) no-repeat 185px 115px;}
+.contents>.client>ul>li{border-top: 2px solid #ef8448;}
+.contents>.client>ul>li:first-child strong{background: #fff5ec url(../images/total2_customer/on_decl_safety_ico1.svg) no-repeat 31px center/30px;}
+.contents>.client>ul>li:nth-child(2) strong{background: #fff5ec url(../images/total2_customer/on_decl_safety_ico2.svg) no-repeat 31px center/30px;}
+.contents>.client>ul>li:nth-child(3) strong{background: #fff5ec url(../images/total2_customer/on_decl_safety_ico3.svg) no-repeat 31px center/30px;}
+.contents>.client>ul>li:nth-child(4) strong{background: #fff5ec url(../images/total2_customer/on_decl_safety_ico4.svg) no-repeat 31px center/30px;}
+.contents>.client>ul>li:nth-child(5) strong{background: #fff5ec url(../images/total2_customer/on_decl_safety_ico5.svg) no-repeat 31px center/30px;}
+.contents>.client>ul>li:nth-child(6) strong{background: #fff5ec url(../images/total2_customer/on_decl_safety_ico6.svg) no-repeat 31px center/30px;}
+.contents>.client>ul>li>ul>li>a:hover{color: #ef8448;}
+.contents>.client>ul>li>ul>li>a:hover>div{background: #ef8448;}
+.contents>.client>ul>li>ul>li>a:hover:after{background: url(../images/total2_customer/on_decl_orange_arrow.svg) no-repeat right;}
+/* 업무지원 */
+.contents>.work{height: 463px;}
+.contents>.work .left{background: #2395a0 url(../images/total2_customer/on_decl_dam_bg.svg) no-repeat 185px 115px;}
+.contents>.work>ul>li{border-top: 2px solid #12a3cc;}
+.contents>.work>ul>li:first-child strong{background: #f7f9fa url(../images/total2_customer/on_decl_dam_ico1.svg) no-repeat 31px center/30px;}
+.contents>.work>ul>li:nth-child(2) strong{background: #f7f9fa url(../images/total2_customer/on_decl_dam_ico2.svg) no-repeat 31px center/30px;}
+.contents>.work>ul>li:nth-child(3) strong{background: #f7f9fa url(../images/total2_customer/on_decl_dam_ico3.svg) no-repeat 31px center/30px;}
+.contents>.work>ul>li:nth-child(4) strong{background: #f7f9fa url(../images/total2_customer/on_decl_dam_ico4.svg) no-repeat 31px center/30px;}
+.contents>.work>ul>li:nth-child(5) strong{background: #f7f9fa url(../images/total2_customer/on_decl_dam_ico5.svg) no-repeat 31px center/30px;}
+.contents>.work>ul>li:nth-child(6) strong{background: #f7f9fa url(../images/total2_customer/on_decl_dam_ico6.svg) no-repeat 31px center/30px;}
+.contents>.work>ul>li>ul>li>a:hover{color: #12a3cc;}
+.contents>.work>ul>li>ul>li>a:hover>div{background: #12a3cc;}
+.contents>.work>ul>li>ul>li>a:hover:after{background: url(../images/total2_customer/on_decl_sky_arrow.svg) no-repeat right;}
+/* 채용정보 */
+.contents>.hire{height: 244px;}
+.contents>.hire .left{background: #8e5bcf url(../images/total2_customer/on_decl_job_bg.svg) no-repeat 185px 115px;}
+.contents>.hire>ul>li{border-top: 2px solid #a26ee3;}
+.contents>.hire>ul>li:first-child strong{background: #f4f3ff url(../images/total2_customer/on_decl_job_ico1.svg) no-repeat 31px center/30px;}
+.contents>.hire>ul>li:last-child strong{background: #f4f3ff url(../images/total2_customer/on_decl_job_ico2.svg) no-repeat 31px center/30px;}
+.contents>.hire>ul>li>ul>li>a:hover{color: #a26ee3;}
+.contents>.hire>ul>li>ul>li>a:hover>div{background: #a26ee3;}
+.contents>.hire>ul>li>ul>li>a:hover:after{background: url(../images/total2_customer/on_decl_biolet_arrow.svg) no-repeat right;}
+

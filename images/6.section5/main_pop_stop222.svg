@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7.217" height="10.153" viewBox="0 0 7.217 10.153">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #222;
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="K-water팝업존_인디케이터_왼오정지" transform="translate(1 1)">
+    <line id="선_36" data-name="선 36" class="cls-1" y2="8.153" transform="translate(0 0)"/>
+    <line id="선_37" data-name="선 37" class="cls-1" y2="8.153" transform="translate(5.217 0)"/>
+  </g>
+</svg>

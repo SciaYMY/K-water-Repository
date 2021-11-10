@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0;}
+body a{color: #222; text-decoration: none;}
+ul{list-style: none;}
+#nav{position: relative; top: 0; left: 0; width: 100%; height: 70px; background: #fff;}
+.logo{background: url(../images/Natigaton/head_logo.png) no-repeat center; width: 87px; height: 70px; position: absolute; }
+.main-menu{position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.main-menu>li{width: 170px; height: 100%; float: left; text-align: center;}
+.main-menu>li>a{font-size: 21px; display: block; width: 100%;}
+.main-menu>li:hover>a{color: #3d66c4}
+.main-menu>li>ul{display: none;}
+.main-menu>li:hover>ul{display: block; position: relative; width: 100%; height: 309px; background: #3d66c4}

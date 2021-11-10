@@ -1,0 +1,58 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+/* MENU */
+.menu-total>ul>li:first-child>ul{display: block;}
+
+/* 레어아웃 */
+#mainTotal{font-family: 'Nanum Gothic', sans-serif;}
+#visual{background: url(../images/total5_about/sub_tit_gnb05.png);}
+/* CONTENTS */
+.inner h3{color: #323232; font-size: 20px; margin-bottom: 15px;}
+.inner>div{color: #555; font-size: 14px;}
+.inner div.color-box{width: 800px; padding: 30px 30px 30px 150px; margin-bottom: 40px;}
+.inner>.mission{height: 130px; background: #e5f1f7 url(../images/total5_about/state_ico01.png) no-repeat 30px center;}
+.inner>.history{height: 169px; background: #e7f6fa url(../images/total5_about/state_ico02.png) no-repeat 30px center;}
+.inner>.capital{height: 90px; background: #fff8ec url(../images/total5_about/state_ico03.png) no-repeat 30px center;}
+.inner>div ul li{padding: 0 10px; background: url(../images/total5_about/facility_map_bul.gif) no-repeat left 11px; margin-bottom: 5px; line-height: 22px;}
+.inner>.team>div{height: 90px; background: #f4f4f4 url(../images/total5_about/state_ico04.png) no-repeat 30px center;}
+.inner>.team>div{margin-bottom:12px;}
+p{float: right; margin-bottom: 12px;}
+table{border-collapse: collapse; border-bottom: 1px solid #d1d1d1; width: 980px; clear: both; margin-bottom: 20px;}
+table th{color: #323223; border: 1px solid #ececec; border-top: 2px solid #12a3cc; background: #f7f8fb;}
+table th:first-child{border-left: none;}
+table th:last-child{border-right: none;}
+th{padding: 10px 0;}
+td{padding: 12px 5px;}
+table td{text-align: center; border-bottom: 1px solid #e2e2e2;}
+table tr.no264 td{border-bottom: none;}
+table td a{color: #717171; display: block; width: 220px; padding-left: 28px; text-align: left;}
+img{display: block; margin: 0 auto;}
+h3.interval{margin-top: 50px;}
+.water-blue{width: 26px; height: 26px; background: url(../images/total5_about/page_b1.jpg); margin: 20px auto 0;}
+h5{margin-bottom: 30px; color: #037ab2; text-align: center; font-size: 18px;}
+h4{margin-bottom: 14px; color: #323232; font-weight: 700; font-size: 16px; float: left;}
+.unit-next{position: relative; margin-bottom: 30px;}
+.unit-next p{position: absolute; bottom: 0; right: 0;}
+table tr.second-row th{border-top: 1px solid #ececec;}
+form{border: 1px solid #f2f2f2; width: 962px; padding: 8px;}
+form>div{padding: 12px 30px; height: 44px;}
+form h6{font-size: 16px; font-weight: 700; line-height: 26px;}
+form p{font-size: 14px; color: #555; float: none; line-height: 20px;}
+form fieldset{margin-top: 12px; border-style: none; border-top: 1px dashed #e2e2e2; padding: 10px 30px; position: relative;}
+form fieldset legend{position: absolute; top: 50%; font-size: 14px; color: #555; font-weight: 700;}
+form fieldset>div{margin-left: 90px;}
+form fieldset .star{padding: 5px; font-size: 14px; margin-left: 90px;}
+form fieldset input{margin-right: 7px; vertical-align: middle; cursor: pointer;}
+form fieldset .star label[for^="star"]{margin-right: 10px; cursor: pointer;}
+form fieldset .star label[for="star5"]{background: url(../images/total5_about/img_star05.gif) no-repeat; padding-left: 71px;}
+form fieldset .star label[for="star4"]{background: url(../images/total5_about/img_star04.gif) no-repeat; padding-left: 57px;}
+form fieldset .star label[for="star3"]{background: url(../images/total5_about/img_star03.gif) no-repeat; padding-left: 43px;}
+form fieldset .star label[for="star2"]{background: url(../images/total5_about/img_star02.gif) no-repeat; padding-left: 29px;}
+form fieldset .star label[for="star1"]{background: url(../images/total5_about/img_star01.gif) no-repeat; padding-left: 15px;}
+form fieldset .improve{padding-top: 10px;}
+form fieldset .improve textarea{margin-right: 12px; width: 100%; float: left; width: 630px;}
+form fieldset .improve button{float: left; width: 81px; height: 81px; border: none; color: #555;}
+.responsibility{border: 1px solid #f2f2f2; width: 830px; padding: 30px 74px; margin-top: 20px;}
+.responsibility ul{overflow: hidden;}
+.inner .responsibility ul li{float: left; background: none; padding: 0; margin-right: 100px;}

@@ -1,0 +1,10 @@
+@charset "utf-8";
+*{margin: 0; padding: 0;}
+ul,li{list-style: none;}
+
+.ir_so {overflow: hidden; position:absolute; width:0; height:0; line-height:0; text-indent:-9999px;}
+
+/* 공통속성 */
+body{font-family: 'Noto Sans KR', 'Noto Sans', sans-serif; color: #222;}
+a{text-decoration: none; color: #222;}
+.fl{float: left;}
