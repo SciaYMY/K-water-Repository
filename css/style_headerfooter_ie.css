@@ -31,7 +31,7 @@
 .gnbMenu>div>a{display: block; width: 100%; height: 15px;}
 /* FOOTER */
 #footer>div{width: 1300px; height: 50%; margin: 0 auto;}
-#footer .row1{height: 35px; padding: 26px 0 20px; border-bottom: 1px solid rgb(255, 255, 255, .22)}
+#footer .row1{height: 35px; padding: 26px 0 20px; border-bottom: 1px solid rgb(72, 72, 72)}         /* IE8-rgba */
 #footer .row1 .link{display: inline;}
 #footer .row1 .link a{font-size: 15px; color: #fff; position: relative; display: block; padding-right: 40px; font-weight: 300;}
 /* #footer .row1 .link a:after{content: ""; width: 40px; height: 20px; background: orange; position: absolute;} */
@@ -50,8 +50,8 @@
 #footer .row1 .right .sns li .twitter_gray{background: url(../images/8.footer/main_ft_snstw.png) center no-repeat}
 #footer .row1 .right .sns li .talk_gray{background: url(../images/8.footer/main_ft_snskt.png) center no-repeat}
 #footer .row1 .right .relate-site{width: 237px; height: 33px; border: 1px solid #7b7b7b; color: rgba(164, 164, 164, .6); float: right; position: relative;}
-#footer .row1 div .relate-site>button{display: block; width: 237px; height: 35px; color: rgba(164, 164, 164, .6); margin-right: 7px; line-height: 33px; padding: 0 16px; font-size: 14px; background: none; border: none; text-align: left; cursor: pointer;}
-#footer .row1 div .relate-site button>div{display: block; width: 18px; height: 35px; background: url(../images/8.footer/relate_site_arrow.png) no-repeat center; float: right; transform: rotate(180deg)}
+#footer .row1 div .relate-site>button{display: block; width: 237px; height: 35px; color: rgb(164, 164, 164); margin-right: 7px; line-height: 33px; padding: 0 16px; font-size: 14px; background: none; border: none; text-align: left; cursor: pointer;}    /* IE8-rgba */
+#footer .row1 div .relate-site button>div{display: block; width: 18px; height: 35px; background: url(../images/InternetExplorer/relate_site_arrow_down.png) no-repeat center; float: right; transform: rotate(180deg)}
 #footer .row1 div .relate-site ul{display: none; width: 235px; height: 209px; background: #6e6e6e; border: 1px solid #6e6e6e; position: absolute; bottom: 34px; left: 0; overflow-y: scroll;}
 #footer .row1 div .relate-site ul li{border-bottom: 1px solid #d9d9d9;}
 #footer .row1 div .relate-site ul li:hover{background: #141414;}
