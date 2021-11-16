@@ -39,7 +39,7 @@ a{text-decoration: none; color: #222;} */
 .arrow{background: url(../images/icon/main_arrow_000.png); width: 34px; height: 8px; transition: .3s}
 
 /* SECTION1 */
-.section1>div{background: url(../images/2.section1/text_1-02_dark.png) center/75% no-repeat; width: 794px; height: 189px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)}
+.section1>div{background: url(../images/2.section1/text_1-02_dark.png) center/75% no-repeat; width: 794px; height: 189px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
 /* SECTION2 k-water */
 .section2 .col-three{width: 468px; height: 475px; float: left;}
 .section2 #articel .box-round{padding: 28px 38px;}

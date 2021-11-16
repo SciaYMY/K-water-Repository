@@ -1,7 +1,7 @@
 function pageScroll(){
     let wheelDelta=0;
     let browser=0;
-    const page=$('#section>div')
+    const page=$('#section>div');
     
     page.each(function(index){
         $(this).on('mousewheel DOMMouseScroll', function(event){

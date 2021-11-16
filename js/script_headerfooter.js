@@ -19,5 +19,5 @@ function siteScroll(){
     $('.relate-site').mouseleave(function(){
         siteMenu.slideUp(500, 'swing');            
     })
-}
+};
 siteScroll();
