@@ -10,12 +10,12 @@
 /* 레어아웃 */
 /* #header{width: 100%; height: 70px; background: #fff; position: fixed; z-index: 2;} */
 #main{width: 100%;}
-.section1{width: 100%; height: 937px; background: url(../images/2.section1/bg1-5.jpg);}
-.section2{width: 100%; height: 867px; background: url(../images/3.section2/main_sec2_bg01.png) no-repeat #f5fcff; position: relative;}
-.section3{width: 100%; height: 867px; background: url(../images/4.section3/main_section02_bg.jpg) center/cover;}
-.section4{width: 100%; height: 867px; background: #f6f6f6 url(../images/5.section4/main_section3_bg.png) right bottom no-repeat;}
-.section5{width: 100%; height: 867px; background: #e8f4ff url(../images/6.section5/sec4m_bg.png) left bottom no-repeat;}
-.section6{width: 100%; height: 867px; background: url(../images/7.section6/main_section05_bg.jpg) no-repeat center/cover;}
+.section1{width: 100%; height: 962px; background: url(../images/2.section1/bg1-5.jpg);}
+.section2{width: 100%; height: 902px; background: url(../images/3.section2/main_sec2_bg01.png) no-repeat #f5fcff; position: relative;}
+.section3{width: 100%; height: 902px; background: url(../images/4.section3/main_section02_bg.jpg) center/cover;}
+.section4{width: 100%; height: 902px; background: #f6f6f6 url(../images/5.section4/main_section3_bg.png) right bottom no-repeat;}
+.section5{width: 100%; height: 902px; background: #e8f4ff url(../images/6.section5/sec4m_bg.png) left bottom no-repeat;}
+.section6{width: 100%; height: 902px; background: url(../images/7.section6/main_section05_bg.jpg) no-repeat center/cover;}
 /* #footer{width: 100%; height: 163px; background: #141414;} */
 
 /* 공통속성 */
@@ -179,7 +179,7 @@ a{text-decoration: none; color: #222;} */
 #articel .col2 .control-bar a{width: 8px; height: 14px;}
 #articel .col2 .control-bar a.arrowL{background: url(../images/icon/main_pop_leftarrow222.png) center/contain;}
 #articel .col2 .control-bar a.play{background: url(../images/icon/main_pop_stop222.png) center/contain no-repeat; padding: 0 10px;}
-#articel .col2 .control-bar a.arrowR{background: url(../images/icon/main_pop_rightarrow222.png) center/contain; }
+#articel .col2 .control-bar a.arrowR{background: url(../images/icon/main_pop_rightarrow222.png) center/contain;}
 /* SECTION5 문화 */
 .section5 #articel .col-two{width: 708px; height: 473px; float: left;}
 .section5 #articel .col1{margin-right: 24px; border-top-left-radius: 20px; position: relative; color: #fff; overflow: hidden;}
