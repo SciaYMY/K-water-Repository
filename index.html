@@ -12,7 +12,7 @@
     <meta name='Publisher' content='YangMY'>
     <meta name='Description' content='수자원공사 웹 코딩 연습'>
     <meta name='Author-Date' content='2021-09-01'>
-    <!-- <meta name='Robots' content='index,follow'> -->
+    <meta name='Robots' content='noindex,nofollow'>
 
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="57x57" href="./images/mascot">
@@ -34,13 +34,13 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <!-- <link rel="stylesheet" type="text/css" href="./css/style.css"> -->
-    <link rel="stylesheet" type="text/css" href="./css/style_ie.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/style_ie.css"> -->
     <!--[if IE]>
         <link href="./css/style_ie.css"></link>
 	<![endif]-->
-    <!-- <link rel="stylesheet" type="text/css" href="./css/style_headerfooter.css"> -->
-    <link rel="stylesheet" type="text/css" href="./css/style_headerfooter_ie.css">
+    <link rel="stylesheet" type="text/css" href="./css/style_headerfooter.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/style_headerfooter_ie.css"> -->
     <!--[if IE]>
         <link href="./css/style_headerfooter_ie.css"></link>
 	<![endif]-->
@@ -56,7 +56,7 @@
         <li><a href="#content">내용 바로가기</a></li>
      </ul>
      <div id="wrap">
-         <div id="header">
+        <div id="header">
              <div class="container">
                  <div class="header">
                     <a href="index.html"><img src="./images/1.Natigaton/head_logo.png" alt="k-water"></a>
@@ -117,17 +117,32 @@
                     <div class="gnbMenu"><span><a href="#">English</a></span><div class="gnb-search"><a href="#"></a></div><div class="gnb-list"><a href="#"></a></div></div>
                 </div>
             </div>
-         </div>
+        </div>
+        <div class="side-nav">
+            <ul>
+                <li><a href="#section1" class="active"><span>메인</span><img src="images/icon/fp-nav_active.png" alt="메인 이동 버튼"></a></li>
+                <li><a href="#section2"><span>K-water</span><div alt="kwater 이동 버튼"></div></a></li>
+                <!-- <li><a href="#section2"><span>K-water</span><img src="images/icon/fp-nav_active.png" alt="kwater 이동 버튼"></a></li> -->
+                <li><a href="#section2"><span>서비스</span><div alt="서비스 이동 버튼"></div></a></li>
+                <!-- <li><a href="#section3"><span>서비스</span><img src="images/icon/fp-nav_active1.png" alt="서비스 이동 버튼"></a></li> -->
+                <li><a href="#section2"><span>뉴스</span><div alt="뉴스 이동 버튼"></div></a></li>
+                <!-- <li><a href="#section4"><span>뉴스</span><img src="images/icon/fp-nav_active.png" alt="뉴스 이동 버튼"></a></li> -->
+                <li><a href="#section2"><span>문화</span><div alt="문화 이동 버튼"></div></a></li>
+                <!-- <li><a href="#section5"><span>문화</span><img src="images/icon/fp-nav_active.png" alt="문화 이동 버튼"></a></li> -->
+                <li><a href="#section2"><span>채용</span><div alt="채용 이동 버튼"></div></a></li>
+                <!-- <li><a href="#section6"><span>채용</span><img src="images/icon/fp-nav_active1.png" alt="채용 이동 버튼"></a></li> -->
+            </ul>
+        </div>
          <!-- HEADER End-->
          <div id="main">
              <div id="section">
                 <!--[if !IE]>-->
-                 <div class="section1"><div></div></div>
+                 <div class="section1" id="section1"><div></div></div>
                 <!--<![endif]-->
                 <!--[if IE]>
                     <div class="section1"><img src="images/2.section1/text_1-02_dark.png" alt="수자원공사 슬로건"></div>
                 <![endif]-->
-                 <div class="section2 push-menu">
+                 <div class="section2 push-menu" id="section2">
                     <div class="container">
                         <h1 class="ir_so">메인화면</h1>
                         <div class="main-tit">
@@ -198,7 +213,7 @@
                     <div class="wave"></div>
                  </div>
                  <!-- SECTION2 k-water End -->
-                 <div class="section3 push-menu">
+                 <div class="section3 push-menu" id="section3">
                     <div class="container">
                         <h1 class="ir_so">서비스 메뉴</h1>
                         <div class="main-tit">
@@ -264,7 +279,7 @@
                     </div>
                  </div>
                  <!-- SECTION3 서비스 End -->
-                 <div class="section4 push-menu">
+                 <div class="section4 push-menu" id="section4">
                     <div class="container">
                         <h1 class="ir_so">뉴스</h1>
                         <div class="main-tit">
@@ -332,7 +347,7 @@
                     </div>
                  </div>
                  <!-- SECTION4 뉴스 End -->
-                 <div class="section5 push-menu">
+                 <div class="section5 push-menu" id="section5">
                     <div class="container">
                         <h1 class="ir_so">문화</h1>
                         <div class="main-tit">
@@ -389,7 +404,7 @@
                     </div>
                  </div>
                  <!-- SECTION5 End -->
-                 <div class="section6 push-menu">
+                 <div class="section6 push-menu" id="section6">
                     <div class="container">
                         <h1 class="ir_so">채용</h1>
                         <div id="articel">

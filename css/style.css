@@ -9,6 +9,7 @@
 
 /* 레어아웃 */
 /* #header{width: 100%; height: 70px; background: #fff; position: fixed; z-index: 2;} */
+.side-nav{position: fixed; right: 27px; top: 50%; transform: translateY(-50%); z-index: 999;}
 #main{width: 100%;}
 .section1{width: 100%; height: 962px; background: url(../images/2.section1/bg1-5.jpg);}
 .section2{width: 100%; height: 902px; background: url(../images/3.section2/main_sec2_bg01.png) no-repeat #f5fcff; position: relative;}
@@ -27,6 +28,14 @@ a{text-decoration: none; color: #222;} */
 
 .box-round{border-radius: 20px 0;}
 #articel .bar{width: 24px; height: 4px; margin: 12px 0;}
+/* SIED MENU */
+.side-nav ul{text-align: right;}
+.side-nav ul li{margin: 23px 0; height: 30px; line-height: 30px;}
+.side-nav ul li a div{width: 7px; height: 7px; background: #555; display: inline-block; margin: 0 8px; border-radius: 50%;}
+.side-nav ul li a span{margin: 0 30px; font-size: 18px; display: none;}
+.side-nav ul li a.active{color: #3d66c4; font-weight: 700;}
+.side-nav ul li:nth-child(3n) a.active{color: #fff;}
+.side-nav ul li a.active span{font-size: 20px; display: inline-block;}
 
 /* MAIN */
 #section .main-tit{margin: 50px;}
