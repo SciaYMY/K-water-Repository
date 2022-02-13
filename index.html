@@ -34,15 +34,17 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" type="text/css" href="./css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <!-- <link rel="stylesheet" type="text/css" href="./css/style_ie.css"> -->
+    <!--[if !IE]>-->
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+	<!--<![endif]-->
     <!--[if IE]>
-        <link href="./css/style_ie.css"></link>
+        <link rel="stylesheet" type="text/css" href="./css/style_ie.css">
 	<![endif]-->
+    <!--[if !IE]>-->
     <link rel="stylesheet" type="text/css" href="./css/style_headerfooter.css">
-    <!-- <link rel="stylesheet" type="text/css" href="./css/style_headerfooter_ie.css"> -->
+    <!--<![endif]-->
     <!--[if IE]>
-        <link href="./css/style_headerfooter_ie.css"></link>
+        <link rel="stylesheet" type="text/css" href="./css/style_headerfooter_ie.css">
 	<![endif]-->
 
     <script src="js/jquery-2.2.4.min.js"></script>
@@ -53,7 +55,7 @@
     <ul id="skip">
         <li><a href="#header">헤더 바로가기</a></li>
         <li><a href="#nav">메뉴 바로가기</a></li>
-        <li><a href="#content">내용 바로가기</a></li>
+        <li><a href="#main">내용 바로가기</a></li>
      </ul>
      <div id="wrap">
         <div id="header">
@@ -114,7 +116,7 @@
                         </ul>
                         <div class="bg-depth"></div>
                     </div>
-                    <div class="gnbMenu"><span><a href="#">English</a></span><div class="gnb-search"><a href="#"></a></div><div class="gnb-list"><a href="#"></a></div></div>
+                    <div class="gnbMenu"><span><a href="#">English</a></span><div class="gnb-search"><a href="#" title="검색"></a></div><div class="gnb-list"><a href="#" title="사이트맵"></a></div></div>
                 </div>
             </div>
         </div>
@@ -123,13 +125,13 @@
                 <li><a href="#section1" class="active"><span>메인</span><img src="images/icon/fp-nav_active.png" alt="메인 이동 버튼"></a></li>
                 <li><a href="#section2"><span>K-water</span><div alt="kwater 이동 버튼"></div></a></li>
                 <!-- <li><a href="#section2"><span>K-water</span><img src="images/icon/fp-nav_active.png" alt="kwater 이동 버튼"></a></li> -->
-                <li><a href="#section2"><span>서비스</span><div alt="서비스 이동 버튼"></div></a></li>
+                <li><a href="#section3"><span>서비스</span><div alt="서비스 이동 버튼"></div></a></li>
                 <!-- <li><a href="#section3"><span>서비스</span><img src="images/icon/fp-nav_active1.png" alt="서비스 이동 버튼"></a></li> -->
-                <li><a href="#section2"><span>뉴스</span><div alt="뉴스 이동 버튼"></div></a></li>
+                <li><a href="#section4"><span>뉴스</span><div alt="뉴스 이동 버튼"></div></a></li>
                 <!-- <li><a href="#section4"><span>뉴스</span><img src="images/icon/fp-nav_active.png" alt="뉴스 이동 버튼"></a></li> -->
-                <li><a href="#section2"><span>문화</span><div alt="문화 이동 버튼"></div></a></li>
+                <li><a href="#section5"><span>문화</span><div alt="문화 이동 버튼"></div></a></li>
                 <!-- <li><a href="#section5"><span>문화</span><img src="images/icon/fp-nav_active.png" alt="문화 이동 버튼"></a></li> -->
-                <li><a href="#section2"><span>채용</span><div alt="채용 이동 버튼"></div></a></li>
+                <li><a href="#section6"><span>채용</span><div alt="채용 이동 버튼"></div></a></li>
                 <!-- <li><a href="#section6"><span>채용</span><img src="images/icon/fp-nav_active1.png" alt="채용 이동 버튼"></a></li> -->
             </ul>
         </div>
@@ -170,7 +172,7 @@
                                 </a>
                              </div>
                              <div class="col2 col-three">
-                                 <ul>
+                                 <ul id="waterSlide">
                                      <li><a href="#" class="pop1" title="새창으로 이동"></a></li>
                                      <li><a href="#" class="pop2" title="새창으로 이동"></a></li>
                                      <li><a href="#" class="pop3" title="새창으로 이동"></a></li>
@@ -178,7 +180,7 @@
                                  <div>
                                      <p>K-water 팝업존</p>
                                     <div class="control-bar">
-                                         <span>1/5</span>
+                                         <span>1/3</span>
                                          <a href="#" class="arrowL_fff"></a>
                                          <a href="#" class="play_fff"></a>
                                          <a href="#" class="arrowR_fff"></a>
