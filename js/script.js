@@ -29,6 +29,15 @@ function pageScroll(){
 pageScroll();
 // console.log($(window).height());
 
+function sideNavigation(){
+    let pagePosition = $('.side-nav a.link-dot');
+    pagePosition.on('click', function (e) {
+      pagePosition.removeClass('active');
+      $(this).addClass('active');
+    });
+}
+sideNavigation();
+
 // POPUP SLIDE
 const slide=$('#waterSlide li');
 let current=0;

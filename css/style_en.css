@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/* skip */
+#skip{z-index:4;position:relative;width:100%;height:auto;font-size:0;}
+#skip>li{width:100%;height:auto;font-size:0;}
+#skip>li>a{display:block;padding:0;font-size:0;text-align:center;color:#fff;background:#000;}
+#skip>li>a:focus{padding:20px;font-size:16px;}
+
+/* LAYOUT */
+
+/* 세로 스크롤 제거 - 물결로 인한 가로스크롤, 스크롤 스파이 한 장씩 밀림 */
+html{width: 100%; overflow: hidden;}
+.side-nav{position: fixed; right: 27px; top: 50%; transform: translateY(-50%); z-index: 999;}
+
+.section-slogan{height: 100vh; background: url(../images/2.section1/bg1-5.jpg) center;}
+.section-main{height: 100vh; background: url(../images/3.section2/main_sec2_bg01.png) no-repeat #f5fcff; position: relative;}
+.section-service{height: 100vh; background: url(../images/4.section3/main_section02_bg.jpg) center/cover;}
+
+
+/* COMMEN */
+.container{max-width: 1440px; margin: 0 auto;}
+
+/* SIED MENU */
+.side-nav ul{text-align: right;}
+.side-nav ul li{margin: 23px 0; height: 30px; line-height: 30px;}
+.side-nav ul li a div{width: 7px; height: 7px; background: #555; display: inline-block; margin: 0 8px; border-radius: 50%;}
+.side-nav ul li a span{margin: 0 30px; font-size: 18px; display: none;}
+.side-nav ul li a.active{color: #3d66c4; font-weight: 700;}
+.side-nav ul li:nth-child(3n) a.active{color: #fff;}
+.side-nav ul li a.active span{font-size: 20px; display: inline-block;}
+
+/* SECTION SLOGAN */
+.section-slogan>div{background: url(../images/2.section1/text_1-02_dark.png) center 50%/75% no-repeat; width: 794px; height: 189px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); overflow: hidden;
+animation: 1s ease .5s downSlogan;
+}
+/* SECTION MAIN */
+.section-main .wave-wrap{position : absolute; bottom: 0; width: 100vw; overflow: hidden;}
+.wave-wrap .wave{background: url(../images/3.section2/main_sec2_bg02.png); width: 2800px; height: 161px; position: relative; animation: 10s infinite alternate waveInfinite;}
+
+
+@keyframes downSlogan{
+    from{
+        background-position: center -285%
+    }
+    to{
+        background-position: center 50%
+    }
+    
+}
+
+@keyframes waveInfinite{
+    from{
+        left: 0;
+    }
+    to{
+        left: -1200px;
+    }
+}

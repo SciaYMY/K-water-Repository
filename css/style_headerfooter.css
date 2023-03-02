@@ -16,7 +16,7 @@
 .menu>li:hover>a{color: #3d66c4;}
 .nav .menu>li>ul{padding: 14px 30px 20px 30px; text-align: left; height: 0;}
 .nav:hover .menu>li>ul{height: 335px;}
-.menu>li:hover>ul{background: #ecf3fb; border-top: 1px solid #b1c9e5; padding-top: 13px}
+.nav .menu>li:hover>ul{background: #ecf3fb; border-top: 1px solid #b1c9e5; padding-top: 13px}
 .menu>li>ul>li{padding: 6px 0;}
 .menu>li>ul>li>a{font-size: 16px;}
 .menu>li>ul>li:hover>a{text-decoration: underline; color: #3d66c4;}
